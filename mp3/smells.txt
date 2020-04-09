@@ -1,0 +1,12 @@
+1. The code smell here is duplicated code. It can be refactored by extracting the code to a new method.
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+
