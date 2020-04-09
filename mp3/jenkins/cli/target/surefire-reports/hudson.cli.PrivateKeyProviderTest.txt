@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: hudson.cli.PrivateKeyProviderTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.033 sec <<< FAILURE! - in hudson.cli.PrivateKeyProviderTest
-initializationError(hudson.cli.PrivateKeyProviderTest)  Time elapsed: 0.017 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.004 sec <<< FAILURE! - in hudson.cli.PrivateKeyProviderTest
+initializationError(hudson.cli.PrivateKeyProviderTest)  Time elapsed: 0 sec  <<< ERROR!
 org.objenesis.ObjenesisException: java.lang.reflect.InvocationTargetException
 	at org.objenesis.instantiator.sun.SunReflectionFactoryHelper.newConstructorForSerialization(SunReflectionFactoryHelper.java:55)
 	at org.objenesis.instantiator.sun.SunReflectionFactoryInstantiator.<init>(SunReflectionFactoryInstantiator.java:38)

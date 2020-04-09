@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: hudson.cli.ConnectionMockTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.236 sec <<< FAILURE! - in hudson.cli.ConnectionMockTest
-initializationError(hudson.cli.ConnectionMockTest)  Time elapsed: 0.02 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.151 sec <<< FAILURE! - in hudson.cli.ConnectionMockTest
+initializationError(hudson.cli.ConnectionMockTest)  Time elapsed: 0.019 sec  <<< ERROR!
 org.objenesis.ObjenesisException: java.lang.reflect.InvocationTargetException
 	at org.objenesis.instantiator.sun.SunReflectionFactoryHelper.newConstructorForSerialization(SunReflectionFactoryHelper.java:55)
 	at org.objenesis.instantiator.sun.SunReflectionFactoryInstantiator.<init>(SunReflectionFactoryInstantiator.java:38)
