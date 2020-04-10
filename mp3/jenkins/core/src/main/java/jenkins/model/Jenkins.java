@@ -4133,10 +4133,6 @@ public class Jenkins extends AbstractCIBase implements DirectlyModifiableTopLeve
             return null;
         }
     }
-	public static void updateAndTrim() {
-		updateComputerList();
-		trimLabels();
-	}
 
     /**
      * Hash of {@link #VERSION}.
