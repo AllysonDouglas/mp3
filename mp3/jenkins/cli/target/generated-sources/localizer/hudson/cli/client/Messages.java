@@ -48,11 +48,11 @@ public class Messages {
     }
 
     /**
-     * Key {@code CLI.VersionMismatch}: {@code Version mismatch. This CLI
+     * Key {@code CLI.VersionMismatch}: {@code Version mismatch. This CLI
      * cannot work with this Jenkins server.}.
      * 
      * @return
-     *     {@code Version mismatch. This CLI cannot work with this Jenkins
+     *     {@code Version mismatch. This CLI cannot work with this Jenkins
      *     server.}
      */
     public static String CLI_VersionMismatch() {
@@ -60,11 +60,11 @@ public class Messages {
     }
 
     /**
-     * Key {@code CLI.VersionMismatch}: {@code Version mismatch. This CLI
+     * Key {@code CLI.VersionMismatch}: {@code Version mismatch. This CLI
      * cannot work with this Jenkins server.}.
      * 
      * @return
-     *     {@code Version mismatch. This CLI cannot work with this Jenkins
+     *     {@code Version mismatch. This CLI cannot work with this Jenkins
      *     server.}
      */
     public static Localizable _CLI_VersionMismatch() {
@@ -72,7 +72,7 @@ public class Messages {
     }
 
     /**
-     * Key {@code CLI.NoURL}: {@code Neither -s nor the JENKINS_URL env var
+     * Key {@code CLI.NoURL}: {@code Neither -s nor the JENKINS_URL env var
      * is specified.}.
      * 
      * @return
@@ -83,7 +83,7 @@ public class Messages {
     }
 
     /**
-     * Key {@code CLI.NoURL}: {@code Neither -s nor the JENKINS_URL env var
+     * Key {@code CLI.NoURL}: {@code Neither -s nor the JENKINS_URL env var
      * is specified.}.
      * 
      * @return
@@ -95,45 +95,45 @@ public class Messages {
 
     /**
      * Key {@code CLI.Usage}: {@code Jenkins CLI
-     * Usage: java -jar
+     * Usage: java -jar
      * jenkins-cli.jar [-s URL] command [opts...] args...
      * Options:
-     * -s URL    
+     * -s URL    
      * : the server URL (defaults to the JENKINS_URL env var)
-     * -i KEY       :
+     * -i KEY       :
      * SSH private key file used for authentication
-     * -p HOST:PORT : HTTP proxy
-     * host and port for HTTPS proxy tunneling. See
+     * -p HOST:PORT : HTTP proxy
+     * host and port for HTTPS proxy tunneling. See
      * http://jenkins-ci.org/https-proxy-tunnel
-     * -noCertificateCheck : bypass
+     * -noCertificateCheck : bypass
      * HTTPS certificate check entirely. Use with caution
-     * -noKeyAuth   :
-     * don't try to load the SSH authentication private key. Conflicts with
+     * -noKeyAuth   :
+     * don't try to load the SSH authentication private key. Conflicts with
      * -i
      * 
-     * The available commands depend on the server. Run the 'help'
+     * The available commands depend on the server. Run the 'help'
      * command to
      * see the list.}.
      * 
      * @return
      *     {@code Jenkins CLI
-     *     Usage: java -jar jenkins-cli.jar [-s URL] command
+     *     Usage: java -jar jenkins-cli.jar [-s URL] command
      *     [opts...] args...
      *     Options:
-     *     -s URL       : the server URL (defaults to
+     *     -s URL       : the server URL (defaults to
      *     the JENKINS_URL env var)
-     *     -i KEY       : SSH private key file used for
+     *     -i KEY       : SSH private key file used for
      *     authentication
-     *     -p HOST:PORT : HTTP proxy host and port for HTTPS proxy
-     *     tunneling. See
+     *     -p HOST:PORT : HTTP proxy host and port for HTTPS proxy
+     *     tunneling. See
      *     http://jenkins-ci.org/https-proxy-tunnel
-     *     -noCertificateCheck : bypass
+     *     -noCertificateCheck : bypass
      *     HTTPS certificate check entirely. Use with caution
-     *     -noKeyAuth   :
-     *     don't try to load the SSH authentication private key. Conflicts with
+     *     -noKeyAuth   :
+     *     don't try to load the SSH authentication private key. Conflicts with
      *     -i
      *     
-     *     The available commands depend on the server. Run the 'help'
+     *     The available commands depend on the server. Run the 'help'
      *     command to
      *     see the list.}
      */
@@ -143,45 +143,45 @@ public class Messages {
 
     /**
      * Key {@code CLI.Usage}: {@code Jenkins CLI
-     * Usage: java -jar
+     * Usage: java -jar
      * jenkins-cli.jar [-s URL] command [opts...] args...
      * Options:
-     * -s URL    
+     * -s URL    
      * : the server URL (defaults to the JENKINS_URL env var)
-     * -i KEY       :
+     * -i KEY       :
      * SSH private key file used for authentication
-     * -p HOST:PORT : HTTP proxy
-     * host and port for HTTPS proxy tunneling. See
+     * -p HOST:PORT : HTTP proxy
+     * host and port for HTTPS proxy tunneling. See
      * http://jenkins-ci.org/https-proxy-tunnel
-     * -noCertificateCheck : bypass
+     * -noCertificateCheck : bypass
      * HTTPS certificate check entirely. Use with caution
-     * -noKeyAuth   :
-     * don't try to load the SSH authentication private key. Conflicts with
+     * -noKeyAuth   :
+     * don't try to load the SSH authentication private key. Conflicts with
      * -i
      * 
-     * The available commands depend on the server. Run the 'help'
+     * The available commands depend on the server. Run the 'help'
      * command to
      * see the list.}.
      * 
      * @return
      *     {@code Jenkins CLI
-     *     Usage: java -jar jenkins-cli.jar [-s URL] command
+     *     Usage: java -jar jenkins-cli.jar [-s URL] command
      *     [opts...] args...
      *     Options:
-     *     -s URL       : the server URL (defaults to
+     *     -s URL       : the server URL (defaults to
      *     the JENKINS_URL env var)
-     *     -i KEY       : SSH private key file used for
+     *     -i KEY       : SSH private key file used for
      *     authentication
-     *     -p HOST:PORT : HTTP proxy host and port for HTTPS proxy
-     *     tunneling. See
+     *     -p HOST:PORT : HTTP proxy host and port for HTTPS proxy
+     *     tunneling. See
      *     http://jenkins-ci.org/https-proxy-tunnel
-     *     -noCertificateCheck : bypass
+     *     -noCertificateCheck : bypass
      *     HTTPS certificate check entirely. Use with caution
-     *     -noKeyAuth   :
-     *     don't try to load the SSH authentication private key. Conflicts with
+     *     -noKeyAuth   :
+     *     don't try to load the SSH authentication private key. Conflicts with
      *     -i
      *     
-     *     The available commands depend on the server. Run the 'help'
+     *     The available commands depend on the server. Run the 'help'
      *     command to
      *     see the list.}
      */
