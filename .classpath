@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="mp3/jenkins/cli/src/main/java"/>
+	<classpathentry kind="src" path="mp3/jenkins/cli/src/test/java"/>
+	<classpathentry kind="src" path="mp3/jenkins/cli/target/generated-sources/localizer"/>
+	<classpathentry kind="src" path="mp3/jenkins/core/src/main/java"/>
+	<classpathentry kind="src" path="mp3/jenkins/core/src/test/java"/>
+	<classpathentry kind="src" path="mp3/jenkins/test/src/main/java"/>
+	<classpathentry kind="src" path="mp3/jenkins/test/src/test/java"/>
+	<classpathentry kind="lib" path="__MACOSX/mp3/jenkins/test/src/test/resources/hudson/util/._ProcessTreeKiller-test-project.jar"/>
+	<classpathentry kind="lib" path="mp3/jenkins/test/src/test/resources/hudson/util/ProcessTreeKiller-test-project.jar"/>
+	<classpathentry kind="output" path="mp3/jenkins/cli/target/classes"/>
+</classpath>
