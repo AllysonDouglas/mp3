@@ -1,6 +1,6 @@
 1. The code smell here is duplicated code. It can be refactored by extracting the code to a new method.
 
-2.
+2. The code smell here is also duplicated code and can be fixed by extracting the code to a new method.
 
 3.
 
