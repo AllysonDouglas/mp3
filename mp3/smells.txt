@@ -2,7 +2,7 @@
 
 2. The code smell here is also duplicated code and can be fixed by extracting the code to a new method.
 
-3. THe code smell here is feature envy because both statements in the method had to call the jenkins class. This can be fixed by move method.
+3.
 
 4.
 
