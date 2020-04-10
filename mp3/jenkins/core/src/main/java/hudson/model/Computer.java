@@ -193,7 +193,7 @@ public /*transient*/ abstract class Computer extends Actionable implements Acces
 
     /**
      * This method captures the information of a request to terminate a computer instance. Method is public as
-     * it needs to be called from {@link AbstractCloudSlave} and {@link jenkins.model.Nodes}. In general you should
+     * it needs to be called from {@link AbstractCloudSlave} and {@link jenkins.model.Jenkins.Nodes}. In general you should
      * not need to call this method directly, however if implementing a custom node type or a different path
      * for removing nodes, it may make sense to call this method in order to capture the originating request.
      *
