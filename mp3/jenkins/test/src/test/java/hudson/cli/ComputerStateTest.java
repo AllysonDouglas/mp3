@@ -80,7 +80,12 @@ public class ComputerStateTest {
 
     @Test
     public void disconnect() throws Exception {
-        CLICommandInvoker command = new CLICommandInvoker(j, "disconnect-node");
+        String connectionNodeVar = "disconnect-node";
+		computerStateNode(connectionNodeVar);
+    }
+
+	private void computerStateNode(String connectionNodeVar) throws Exception {
+		CLICommandInvoker command = new CLICommandInvoker(j, connectionNodeVar);
 
         Slave slave = j.createOnlineSlave();
         assertTrue(slave.toComputer().isOnline());
@@ -95,11 +100,12 @@ public class ComputerStateTest {
         UserCause cause = (UserCause) slave.toComputer().getOfflineCause();
         assertThat(cause.toString(), endsWith("Custom cause message"));
         assertThat(cause.getUser(), equalTo(command.user()));
-    }
+	}
 
     @Test
     public void offline() throws Exception {
-        CLICommandInvoker command = new CLICommandInvoker(j, "offline-node");
+        String connectionNodeVar = "offline-node";
+		CLICommandInvoker command = new CLICommandInvoker(j, connectionNodeVar);
 
         Slave slave = j.createOnlineSlave();
         assertTrue(slave.toComputer().isOnline());

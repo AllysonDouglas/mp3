@@ -10,5 +10,6 @@
 	<classpathentry kind="src" path="mp3/jenkins/test/src/test/java"/>
 	<classpathentry kind="lib" path="__MACOSX/mp3/jenkins/test/src/test/resources/hudson/util/._ProcessTreeKiller-test-project.jar"/>
 	<classpathentry kind="lib" path="mp3/jenkins/test/src/test/resources/hudson/util/ProcessTreeKiller-test-project.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="mp3/jenkins/cli/target/classes"/>
 </classpath>
