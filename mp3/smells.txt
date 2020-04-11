@@ -2,9 +2,9 @@
 
 2. The code smell here is also duplicated code and can be fixed by extracting the code to a new method.
 
-3. THe code smell here is feature envy because both statements in the method had to call the jenkins class. This can be fixed by move method.
+3. THe code smell here is feature envy because both statements in the method had to call the jenkins class. This can be fixed by moving the method.
 
-4.
+4. This can be eliminated by naming the outer loop, then putting one instance of the code in a loop that repeats 4 times, but can break the outer loop at any point. 
 
 5.
 
