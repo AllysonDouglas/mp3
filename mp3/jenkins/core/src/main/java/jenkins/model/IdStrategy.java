@@ -249,7 +249,7 @@ public abstract class IdStrategy extends AbstractDescribableImpl<IdStrategy> imp
                         for(int j = 0; j < 4; j++){
 				i++;
 				if(i < chars.length){
-					hex.append(chars[i])
+					hex.append(chars[i]);
 				}
 				else{
 					break addToHexLoop;
