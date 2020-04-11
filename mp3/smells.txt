@@ -2,11 +2,13 @@
 
 2. The code smell here is also duplicated code and can be fixed by extracting the code to a new method.
 
-3. THe code smell here is feature envy because both statements in the method had to call the jenkins class. This can be fixed by moving the method.
+3. The code smell here is feature envy because both statements in the method had to call the jenkins class. This can be fixed by moving the method.
 
 4. This can be eliminated by naming the outer loop, then putting one instance of the code in a loop that repeats 4 times, but can break the outer loop at any point. 
 
-5.
+5. Step 5 did not ask for anything to be added to smells.txt
 
-6.
+6. One example of duplicate code can be found in mp3/jenkins/test/src/test/java/hudson/cli/ComputerStateTest.java from lines 83 to 97 and then again from lines 102 to 116
+
+This code can be refactored by extracting the one difference in the inputs as a local variable and then extracting the method using that local variable as the input. 
 
